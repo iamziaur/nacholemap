@@ -6,7 +6,7 @@ const MapEmbed: React.FC = memo(() => {
     <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-gray-200 dark:border-slate-800 overflow-hidden">
       <div className="relative w-full h-[500px] md:h-[600px]">
         <iframe 
-          src="https://www.google.com/maps/d/u/1/embed?mid=11AMDOLBbJnHchlVOATCDWqTQ6vevFoU&ehbc=2E312F" 
+          src="https://www.google.com/maps/d/embed?mid=11AMDOLBbJnHchlVOATCDWqTQ6vevFoU&ehbc=2E312F" 
           width="100%" 
           height="100%"
           style={{ border: 0 }}
@@ -22,7 +22,7 @@ const MapEmbed: React.FC = memo(() => {
             তথ্যসূত্র: <span className="font-bold">বাংলাদেশ নির্বাচন কমিশন</span>
         </p>
         <a 
-          href="https://www.google.com/maps/d/u/1/viewer?mid=11AMDOLBbJnHchlVOATCDWqTQ6vevFoU" 
+          href="https://www.google.com/maps/d/u/1/embed?mid=11AMDOLBbJnHchlVOATCDWqTQ6vevFoU&ehbc=2E312F" 
           target="_blank" 
           rel="noreferrer"
           className="bg-blue-700 dark:bg-blue-600 text-white px-5 py-2 rounded-xl text-xs font-bold hover:bg-blue-800 transition-all shadow-sm"
