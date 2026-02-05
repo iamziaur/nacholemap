@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import MapEmbed from './components/MapEmbed';
@@ -189,8 +188,8 @@ const App: React.FC = () => {
           </p>
           <div className="h-0.5 w-16 bg-blue-600/20 mx-auto mb-6 rounded-full"></div>
           
-          <div className="flex flex-col items-center opacity-40 hover:opacity-100 transition-opacity">
-            <p className="text-[8px] md:text-[9px] text-gray-400 dark:text-slate-600 font-medium tracking-[0.2em] uppercase">
+          <div className="flex flex-col items-center opacity-[0.15] hover:opacity-100 transition-opacity">
+            <p className="text-[7px] text-gray-400 dark:text-slate-600 font-medium tracking-[0.2em] uppercase">
               কারিগরী সহযোগীতায়: <a href="tel:+8801792219012" className="hover:text-blue-500 transition-colors">মোঃ জিয়াউর রহমান</a>
             </p>
           </div>
